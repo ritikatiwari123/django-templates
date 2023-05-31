@@ -1,0 +1,9 @@
+<!------it will contain the common headers and footers that we can use in every pages------------->
+
+<header>
+    <a href="{% url 'home-page' %}">Home</a> |
+    <a href="{% url 'about-page' %}">About</a>
+</header>
+
+
+{% block content %} {% endblock content %}
